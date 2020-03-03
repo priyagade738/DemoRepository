@@ -1,0 +1,9 @@
+package com.gofly.in.GoFlyApp.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.gofly.in.GoFlyApp.GoFlyAppApplication;
+
+public interface GoFlyAdminRepository extends JpaRepository<GoFlyAppApplication, String> {
+
+}

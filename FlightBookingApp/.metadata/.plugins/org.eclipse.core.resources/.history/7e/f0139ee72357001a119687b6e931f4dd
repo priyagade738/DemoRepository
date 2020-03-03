@@ -1,0 +1,11 @@
+package com.gofly.in.GoFlyApp.model;
+
+public class GoFlyAdminFlightReschedule {
+	private String flightId;
+	private String flightDepartureDate;
+	private String flightDepartureTime;
+	private String flightArrivalDate;
+	private String flightArrivalTime;
+	
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;GoFlyApp&apos; to &apos;GoFlyAppAdminService&apos;&#x0D;&#x0A;- Original element: &apos;GoFlyApp&apos;&#x0D;&#x0A;- Renamed element: &apos;GoFlyApp&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;GoFlyApp&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=GoFlyApp" name="GoFlyAppAdminService" references="true" stamp="1582561082829" version="1.0"/>
+</session>

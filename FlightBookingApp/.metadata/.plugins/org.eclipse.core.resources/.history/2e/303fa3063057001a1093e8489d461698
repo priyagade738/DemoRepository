@@ -1,0 +1,8 @@
+package com.gofly.in.GoFlyApp.serviceI;
+
+public interface GoFlyAdminServiceI {
+
+	
+	
+	
+}

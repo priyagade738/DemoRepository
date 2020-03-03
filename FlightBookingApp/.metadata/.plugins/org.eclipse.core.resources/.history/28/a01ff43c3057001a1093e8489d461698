@@ -1,0 +1,13 @@
+package com.gofly.in.GoFlyApp.serviceI;
+
+import java.util.List;
+
+import com.gofly.in.GoFlyApp.Entity.GoFlyAdminEntity;
+
+public interface GoFlyAdminServiceI {
+public String addFlights(List<GoFlyAdminEntity> flights);
+
+	
+	
+	
+}

@@ -1,0 +1,9 @@
+package com.gofly.in.GoFlyApp.serviceImpl;
+
+import org.springframework.stereotype.Service;
+
+import com.gofly.in.GoFlyApp.serviceI.GoFlyAdminServiceI;
+@Service
+public class GoFlyAdminServiceIMPL implements GoFlyAdminServiceI {
+
+}

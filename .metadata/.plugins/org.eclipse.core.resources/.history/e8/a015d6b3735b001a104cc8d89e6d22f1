@@ -1,0 +1,61 @@
+package com.gofly.in.GoFlyApp.serviceImpl;
+
+import java.util.List;
+
+import org.apache.el.stream.Optional;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.gofly.in.GoFlyApp.Entity.GoFlyAdminEntity;
+import com.gofly.in.GoFlyApp.model.GoFlyAdminFlightReschedule;
+import com.gofly.in.GoFlyApp.repository.GoFlyAdminRepository;
+import com.gofly.in.GoFlyApp.serviceI.GoFlyAdminServiceI;
+@Service
+public class GoFlyAdminServiceIMPL implements GoFlyAdminServiceI {
+@Autowired
+GoFlyAdminRepository r;
+	
+	
+	@Override
+	public String addFlights(List<GoFlyAdminEntity> flights)
+	{
+	r.saveAll(flights);	
+		return "flights:"+flights.iterator()+"added succesfully";
+	}
+
+	@Override
+	public String addFlight(GoFlyAdminEntity flight) {
+		r.save(flight);
+		return "flight:"+flight.getFlightId()+" "+"added Succesfully";
+	}
+
+	@Override
+	public GoFlyAdminEntity getFlight(String flightId) 
+	{
+      //  Optional <GoFlyAdminEntity>optionalflight=
+		return null;
+	}
+
+	@Override
+	public GoFlyAdminEntity updateFlight(GoFlyAdminEntity flightToUpdade)
+	{
+		
+		return null;
+	
+	}
+
+	@Override
+	public GoFlyAdminEntity RescheduleFlight(GoFlyAdminFlightReschedule flightToReschedule) 
+	{
+		
+		return null;
+	}
+
+	@Override
+	public String DeleteFlight(GoFlyAdminEntity flightId)
+	{
+		
+		return null;
+	}
+
+}

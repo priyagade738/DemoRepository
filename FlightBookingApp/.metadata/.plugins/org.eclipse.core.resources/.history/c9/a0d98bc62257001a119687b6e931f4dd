@@ -1,0 +1,5 @@
+package com.gofly.in.GoFlyApp.Entity;
+
+public class GoFlyAdminEntity {
+
+}

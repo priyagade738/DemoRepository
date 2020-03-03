@@ -1,0 +1,7 @@
+package com.gofly.in.GoFlyApp.serviceImpl;
+
+import com.gofly.in.GoFlyApp.serviceI.GoFlyAdminServiceI;
+
+public class GoFlyAdminServiceIMPL implements GoFlyAdminServiceI {
+
+}

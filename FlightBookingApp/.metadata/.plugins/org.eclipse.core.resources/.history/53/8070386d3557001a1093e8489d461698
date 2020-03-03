@@ -1,0 +1,22 @@
+package com.gofly.in.GoFlyApp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.gofly.in.GoFlyApp.Entity.GoFlyAdminEntity;
+import com.gofly.in.GoFlyApp.serviceI.GoFlyAdminServiceI;
+
+@RestController
+public class GoFlyAdminController {
+@Autowired
+GoFlyAdminServiceI s;
+
+public String addFlight(GoFlyAdminEntity flight) {
+	s.addFlight(flight);
+	
+	
+}
+
+	
+	
+}

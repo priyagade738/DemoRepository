@@ -1,0 +1,5 @@
+package com.gofly.in.GoFlyApp.Model;
+
+public class GoFlyAdminFlightReschedule {
+
+}

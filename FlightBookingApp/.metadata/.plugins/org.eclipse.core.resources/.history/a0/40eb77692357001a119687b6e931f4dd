@@ -1,0 +1,27 @@
+package com.gofly.in.GoFlyApp.Entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Admin_Flight")
+public class GoFlyAdminEntity {
+@Id
+private String
+private String
+private String
+private String
+private String
+private String
+private String
+private String
+private String
+private String
+private String
+
+
+
+
+
+}
